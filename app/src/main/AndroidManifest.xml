@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.mluan.app.greetiny"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppFullScreenTheme">
+        <activity
+            android:name="com.mluan.app.greetiny.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mluan.app.greetiny.MainIntent"
+            android:label="@string/title_activity_main_intent"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+        </activity>
+        <activity
+            android:name=".holiday_1"
+            android:label="@string/title_activity_holiday_1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+        </activity>
+        <activity
+            android:name="com.mluan.app.greetiny.Holiday"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mluan.app.greetiny.BuildCard"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mluan.app.greetiny.FinishCard"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mluan.app.greetiny.ShareCard"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+
+    tools:context="com.mluan.app.greetiny.ShareCard">
+
+    <ImageView
+        android:id="@+id/imageShare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/holiday_2"
+        android:layout_margin="20dp"
+        android:onClick="takeScreenshot"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="hello"
+        android:textSize="48sp"
+        android:textColor="#0038b8"
+        android:id="@+id/textShare"
+
+        />
+</RelativeLayout>

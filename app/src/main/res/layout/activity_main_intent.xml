@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.mluan.app.greetiny.MainIntent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#3465a4"
+            android:fontFamily="sans-serif-medium"
+            android:padding="25dp"
+            android:text="theme"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ImageView
+                android:onClick="holiday1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_1"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_2"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_3"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <ImageView
+                android:onClick="holiday4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_4"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_5"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_6"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <ImageView
+                android:onClick="holiday7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_7"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_8"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_9"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <ImageView
+                android:onClick="holiday10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_10"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_11"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:onClick="holiday12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_12"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
